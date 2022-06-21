@@ -95,21 +95,12 @@ export const getEmployessResponse = {
 
 export const server = setupServer(
   rest.get(`${BASE_URL}/departments`, (req, res, ctx) => {
-    return res(
-        ctx.status(200), 
-        ctx.json(getDepartmentsResponse)
-    );
+    return res(ctx.status(200), ctx.json(getDepartmentsResponse));
   }),
   rest.get(`${BASE_URL}/employees`, (req, res, ctx) => {
-    return res(
-        ctx.status(200), 
-        ctx.json(getEmployessResponse)
-    );
+    return res(ctx.status(200), ctx.json(getEmployessResponse));
   }),
   rest.post(`${BASE_URL}/employees`, (req, res, ctx) => {
-    return res(
-        ctx.status(201), 
-        ctx.json(postEmployeeResponse)
-    );
+    return res(ctx.status(201), ctx.json(postEmployeeResponse));
   })
 );

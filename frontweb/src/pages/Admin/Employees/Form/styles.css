@@ -35,7 +35,6 @@
 }
 
 @media (min-width: 576px) {
-
   .employee-crud-form-card {
     padding: 40px;
   }
@@ -59,7 +58,7 @@
 }
 
 .employee-crud-select__placeholder {
-  color: #9E9E9E !important;
+  color: #9e9e9e !important;
 }
 
 .employee-crud-select__indicator-separator {

@@ -1,7 +1,6 @@
 import './styles.css';
 
 const Form = () => {
-
   const handleCancel = () => {
     // to do
   };
@@ -14,25 +13,18 @@ const Form = () => {
         <form>
           <div className="row employee-crud-inputs-container">
             <div className="col employee-crud-inputs-left-container">
-
               <div className="margin-bottom-30">
-                <input type="text" 
+                <input
+                  type="text"
                   className="form-control base-input is-invalid"
                 />
-                <div className="invalid-feedback d-block">
-                  Mensagem de erro
-                </div>
+                <div className="invalid-feedback d-block">Mensagem de erro</div>
               </div>
 
               <div className="margin-bottom-30">
-                <input type="text" 
-                  className="form-control base-input"
-                />
-                <div className="invalid-feedback d-block">
-                  
-                </div>
+                <input type="text" className="form-control base-input" />
+                <div className="invalid-feedback d-block"></div>
               </div>
-
             </div>
           </div>
           <div className="employee-crud-buttons-container">

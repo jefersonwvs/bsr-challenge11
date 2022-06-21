@@ -4,18 +4,18 @@ import Pagination from 'components/Pagination';
 import EmployeeCard from 'components/EmployeeCard';
 import { Link } from 'react-router-dom';
 
-const employeeHardCode = { // delete
+const employeeHardCode = {
+  // delete
   id: 1,
-  name: "Carlos",
-  email: "carlos@gmail.com",
+  name: 'Carlos',
+  email: 'carlos@gmail.com',
   department: {
     id: 1,
-    name: "Sales"
-  }
+    name: 'Sales',
+  },
 };
 
 const List = () => {
-
   const handlePageChange = (pageNumber: number) => {
     // to do
   };
